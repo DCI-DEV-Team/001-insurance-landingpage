@@ -16,7 +16,7 @@ const Button = ({ children, variant, size, ...props }) => {
       case 'lg':
         return 'text-lg px-8'
       case 'xl':
-        return 'text-lg font-medium py-4 px-8'
+        return 'text-md font-medium py-6 px-12'
       default:
         return 'text-md'
     }
