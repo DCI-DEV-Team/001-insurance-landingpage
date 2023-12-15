@@ -1,9 +1,10 @@
+import HeroSection from './components/Sections/HeroSection'
 import CardSection from './components/Sections/CardSection'
 
 function App() {
   return (
     <>
-      <h1>Hello</h1>
+      <HeroSection />
       <CardSection />
     </>
   )
