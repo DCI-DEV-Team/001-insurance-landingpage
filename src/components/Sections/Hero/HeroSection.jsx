@@ -1,3 +1,11 @@
+/** TO-DO:
+ * - Muss noch responsive gemacht werden
+ * - Struktur muss entsprechend dafür angepasst werden
+ * - Sich zu oft wiederholende Elemente in Komponenten auslagern
+ * - (Linke und Rechte Seite in eigene Komponenten auslagern) ODER
+ * - (Linke und Rechte Seite in jeweilige divs umschließen / flex-row / responsive: flex-col)
+ */
+
 import Navbar from './Navbar'
 import Button from '../../Utilities/Button'
 
