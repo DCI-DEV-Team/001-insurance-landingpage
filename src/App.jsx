@@ -1,4 +1,4 @@
-import HeroSection from './components/Sections/HeroSection'
+import HeroSection from './components/Sections/Hero/HeroSection'
 import CardSection from './components/Sections/CardSection'
 
 function App() {
