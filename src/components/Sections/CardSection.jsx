@@ -16,7 +16,7 @@ export default function CardSection() {
 
   return (
     <>
-      <section className="px-[200px]">
+      <section className="px-[200px] mt-20">
         <h2 className="text-3xl  text-[#093624] my-2 font-playfair mb-12">
           Individual & Umbrella Policies
         </h2>
