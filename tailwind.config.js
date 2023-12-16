@@ -3,6 +3,10 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {},
+    fontFamily: {
+      playfair: ['Playfair Display', 'sans-serif'],
+      roboto: ['Roboto', 'sans-serif'],
+    },
   },
   plugins: [],
 }
