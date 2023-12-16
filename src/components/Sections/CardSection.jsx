@@ -23,7 +23,7 @@ export default function CardSection() {
 
         <div className="flex gap-7 justify-between">{cardElements}</div>
         <div className="flex justify-center mt-10">
-          <Button size="xl">Browse All Policies</Button>
+          <Button size="lg">Browse All Policies</Button>
         </div>
       </section>
     </>
