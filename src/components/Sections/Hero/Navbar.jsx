@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="w-full py-12 flex justify-between items-center bg-[#0D4A31]">
+      <nav className="w-full py-12 flex justify-between items-center bg-[#0D4A31] font-roboto">
         <img className="w-[148px] h-[22px]" src="/images/logo.png" />
         <ul className="flex items-center gap-12 text-white">
           <a className={hoverStyles} href="/">

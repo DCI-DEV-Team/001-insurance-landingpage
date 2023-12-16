@@ -11,7 +11,7 @@ import Button from '../../Utilities/Button'
 
 const HeroSection = () => {
   return (
-    <div className="bg-[#0D4A31] h-screen px-12 relative">
+    <div className="bg-[#0D4A31] h-screen px-12 relative font-roboto">
       <Navbar />
       <img
         className="absolute bottom-0 right-56"
@@ -20,7 +20,7 @@ const HeroSection = () => {
 
       {/* LEFT SIDE */}
 
-      <h1 className="text-6xl font-medium text-white pt-12 pb-6">
+      <h1 className="text-6xl font-bold font-playfair text-white pt-12 pb-6">
         Are You Covered? <br /> Home, Life, & <br /> Auto Insurance.
       </h1>
       <p className="text-white pb-16">
