@@ -1,5 +1,6 @@
 import DataInfo from '../../../data_InfoSection'
 import Info from "../Utilities/Info"
+import Button from "../Utilities/Button"
 
 
 export default function InfoSection() {
@@ -30,7 +31,7 @@ export default function InfoSection() {
 					<div className="absolute bg-white -right-4 -left-4 -top-4 p-4 md:p-8 flex flex-col gap-4 rounded-lg shadow-2xl items-center">
 						<h3 className="text-xl font-bold text-[#093624] text-center">Free Consultation</h3>
 						<p className="text-center text-[#595959] font-light leading-6">Proin eget tortor risus. Praesent sapien massa, convallis.</p>
-						<button className='mb-6'>Chat now</button>
+						<Button>Chat now</Button>
 					</div>
 					</div>
 					
