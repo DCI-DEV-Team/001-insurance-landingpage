@@ -1,4 +1,5 @@
 import CardSection from './components/Sections/CardSection'
+import FooterSection from './components/Sections/FooterSection'
 
 function App() {
   return (
