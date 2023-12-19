@@ -16,12 +16,14 @@ export default function CardSection() {
 
   return (
     <>
-      <section className="px-[200px] mt-20">
+      <section className="xl:px-[200px] lg:px-[100px] px-[50px] mt-20">
         <h2 className="text-3xl  text-[#093624] my-2 font-playfair mb-12">
           Individual & Umbrella Policies
         </h2>
 
-        <div className="flex gap-7 justify-between">{cardElements}</div>
+        <div className="flex justify-center flex-wrap flex-grow gap-6 md:flex-nowrap">
+          {cardElements}
+        </div>
         <div className="flex justify-center mt-10">
           <Button size="lg">Browse All Policies</Button>
         </div>

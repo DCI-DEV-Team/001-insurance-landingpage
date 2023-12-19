@@ -1,6 +1,6 @@
 export default function Card(props) {
   return (
-    <div className=" rounded-md">
+    <div className="flex flex-col flex-grow rounded-md">
       <img src={`./public/images/${props.cardImg}`} alt="" className=" mb-6" />
       <h3 className="font-bold text-xl text-[#093624] mb-5 font-playfair pl-7">
         {props.title}
