@@ -17,10 +17,10 @@ export default function CardSection() {
   return (
     <>
       <section className="xl:px-[200px] lg:px-[100px] px-[50px] mt-20">
-        <h2 className="text-3xl  text-[#093624] my-2 font-playfair mb-12">
+        <h2 className="text-3xl  text-[#093624] my-2 font-playfair font-bold">
           Individual & Umbrella Policies
         </h2>
-
+        <div className="border-b-4 border-[#BECEC7;] w-[56px] rounded mb-12"></div>
         <div className="flex justify-center flex-wrap flex-grow gap-6 md:flex-nowrap">
           {cardElements}
         </div>
